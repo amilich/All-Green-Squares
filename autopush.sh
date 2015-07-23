@@ -4,8 +4,8 @@
 
 echo “Welcome to GitHub AutoCommit”
 cd 
-NAME=`cat ~/git.txt | head -1`
-PW=`cat ~/git.txt | tail -1`
+#NAME=`cat ~/git.txt | head -1`
+#PW=`cat ~/git.txt | tail -1`
 echo "GitHub name: " $NAME
 cat ~/paths.txt | while read line
 do 
